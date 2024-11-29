@@ -1,0 +1,46 @@
+baseURL = ""
+languageCode = 'en-us'
+title = 'Demo for Hugo'
+theme = 'PaperMod'
+
+[params.homeInfoParams]
+    Title = 'Hello World'
+    Content = 'This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content.'    
+
+
+[params.cover]
+    linkFullImages = true
+    
+[params]
+    ShowBreadCrumbs = true
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowPostNavLinks = true
+
+[[params.socialIcons]]
+    name = 'facebook'
+    url = 'https://github.com'
+[[params.socialIcons]]
+    name = 'twitter'
+    url = 'https://github.com'
+[[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com'
+    
+
+
+[[menu.main]]
+    name = "categories"
+    identifier = "Categories"
+    url = "/categories/"
+    weight = 10
+[[menu.main]]
+    name = "tags"
+    identifier = "Tags"
+    url = "/tags/"
+    weight = 20
+[[menu.main]]
+    name = "archives"
+    identifier = "Archives"
+    url = "/archives/"
+    weight = 30
